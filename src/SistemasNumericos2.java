@@ -12,9 +12,9 @@ public class SistemasNumericos2 {
         } catch(NumberFormatException e){
             // en caso de que el valor ingresado sea incorrecto muestro un mensaje de error
             JOptionPane.showMessageDialog(null, "Debe ingresar un número entero");
-            // invoco de nuevo al metodo main para que el programa se vuelva a inicializar
+            // invoco de nuevo al método main para que el programa se vuelva a inicializar
             main(args);
-            // despues del main tenemos que salir para que el codigo que esta fuera del catch no se vuelva a ejecutar
+            // después del main tenemos que salir para que el código que está fuera del catch no se vuelva a ejecutar
             // para esto podemos usar "return;" pero es mejor utilizar la clase System
             System.exit(0); // con el 0 como argumento le indicamos que todo ha salido bien.
         }
@@ -33,6 +33,7 @@ public class SistemasNumericos2 {
         mensaje += "\nConvertido a hexadecimal es " + Integer.toHexString(numeroDecimal);
         JOptionPane.showMessageDialog(null, mensaje);
         */
+
         String resultadoBinario = "\nConvertido a binario es " + Integer.toBinaryString(numeroDecimal);
         String resultadoOctal = "\nConvertido a octal es " + Integer.toOctalString(numeroDecimal);
         String resultadoHexa = "\nConvertido a hexadecimal es " + Integer.toHexString(numeroDecimal);
