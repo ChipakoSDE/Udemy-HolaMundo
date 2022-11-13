@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 public class SistemasNumericos {
     public static void main(String[] args) {
         int numeroDecimal = 500;
