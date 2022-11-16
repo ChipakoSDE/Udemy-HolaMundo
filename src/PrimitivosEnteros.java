@@ -4,7 +4,7 @@ public class PrimitivosEnteros {
         byte numeroByte = 7;
         System.out.println("numeroByte = " + numeroByte);
         // Byte iniciado con mayúsculas es una clase wrapper asociada al tipo de datos byte
-        // esta clase tambien existe para los otros tipos de datos primitivos (Integer, Short, Long, etc)
+        // esta clase también existe para los otros tipos de datos primitivos (Integer, Short, Long, etc)
         System.out.println("Tipo byte corresponde en bytes a " + Byte.BYTES);
         System.out.println("Tipo byte corresponde en bits a " + Byte.SIZE);
         System.out.println("Valor máximo de un byte " + Byte.MAX_VALUE);

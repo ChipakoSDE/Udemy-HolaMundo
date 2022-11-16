@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class SistemasNumericos2 {
     public static void main(String[] args) {
-        // JOptionPane es una clase que contiene metodos para interactuar con el usuario
+        // JOptionPane es una clase que contiene métodos para interactuar con el usuario
         String numeroStr = JOptionPane.showInputDialog(null,"Ingrese un número entero");
         int numeroDecimal = 0; // inicializo la variable para poder utilizarla dentro y fuera del try
 
