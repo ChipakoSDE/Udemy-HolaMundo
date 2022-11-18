@@ -14,7 +14,7 @@ public class OperadoresLogicosLoginOptimizado {
         passwords[2] = "12345";
         */
 
-        // Hago lo mismo mas optimizado:
+        // Hago lo mismo más optimizado:
         String[] usernames = {"Carlos", "Admin", "Pepe"};
         String[] passwords = {"123", "1234", "12345"};
 
