@@ -50,13 +50,12 @@ public class SentenciasBucleEtiquetas {
             int j = 0;
             bucle2:
             while (j < 9) {
-                if ( i == 5 || i == 6) {
+                if (i == 5 || i == 6) {
                     System.out.println(dias[i] + ": descanso de fin de semana!");
                     continue bucle;
                 }
-                if (j == 4 ){
-                    System.out.println(dias[i] + " " + horas[j] + " horas: almuerzo");
-                    j++;
+                if (j == 4) {
+                    System.out.println(dias[i] + " " + horas[j++] + " horas: almuerzo");
                     continue bucle2;
 
                 }
