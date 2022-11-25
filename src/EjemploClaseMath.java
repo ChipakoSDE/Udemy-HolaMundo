@@ -51,7 +51,5 @@ public class EjemploClaseMath {
         System.out.println("cos(0): " + Math.cos(radianes));
 
 
-
-
     }
 }
