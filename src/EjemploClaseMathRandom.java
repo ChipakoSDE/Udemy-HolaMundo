@@ -11,8 +11,8 @@ public class EjemploClaseMathRandom {
         System.out.println("colores = " + colores[(int)random]);
 
         /*
-        * vemos la clase Random, que no es lo mismo que el método random de la clase Math es mas flexible y da mas
-        * variedad para generar nros enteros, decimales aleatorios
+        * vemos la clase Random, que no es lo mismo que el método random de la clase Math, es más flexible y da más
+        * variedad para generar nros enteros, decimales y aleatorios
         */
         Random randomObj = new Random();
         int randomInt = randomObj.nextInt(); // si pongo parámetros genera nros aleatorios entre 0 y ese nro, sin incluirlo
